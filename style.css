@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+#ui {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  left: 20px;
+}
+
+button {
+  background: #1e90ff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
